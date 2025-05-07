@@ -1,5 +1,5 @@
 import "./weatherInformations.css"
-
+//Comentário de teste
 function WeatherInformations({ weather }) {
   if (!weather || !weather.main) {
     return <p className="logo">Made by ©Will</p>;
