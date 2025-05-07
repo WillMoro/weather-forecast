@@ -1,4 +1,4 @@
-import "./weatherInformations.css"
+import "./weatherinformations.css"
 //Comentário de teste
 function WeatherInformations({ weather }) {
   if (!weather || !weather.main) {
