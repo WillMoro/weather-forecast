@@ -18,7 +18,7 @@ function App() {
     const city = inputRef.current.value
 
     //Mapeamento da chave da API
-    const key = "4623038b94c275e68ef53b671af100a8"
+    const key = import.meta.env.VITE_WEATHER_API_KEY;
 
     //Adição do input e da key com template literals 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
